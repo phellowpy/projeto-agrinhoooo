@@ -35,6 +35,7 @@ atualizaçao das maquinas
 atualizaçao de empregos (empresgos que surgiram, empregos trocados por maquinas e pregos que sumiram)
 
 tecnologia que incorpora a opurtunidade no campo
+ *quais oportunidades podem ter
 
 <hr>
 Do Campo à Cidade: Colhendo Oportunidades
