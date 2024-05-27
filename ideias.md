@@ -14,7 +14,7 @@ https://agrinho-murillo.vercel.app/
 
 https://agrinho-one.vercel.app/
 
-https://guhhschool.github.io/transformando-o-mundo/
+https://guhhschool.github.io/transformando-o-mundo/ e e,
 
 https://jheni02.github.io/site-agrinho/
 
@@ -24,6 +24,15 @@ https://arthurf70x7.github.io/
 
 <hr>
 
+oportunidades de emprego
+
+falar sobre oq e
+
+atualizaçao das maquinas
+
+atualizaçao de empregos (empresgos que surgiram, empregos trocados por maquinas e pregos que sumiram)
+
+<hr>
 Do Campo à Cidade: Colhendo Oportunidades
 
 A migração do campo para a cidade tem sido uma realidade constante ao longo dos anos, impulsionada por uma série de fatores que vão desde a busca por melhores condições de vida até a procura por oportunidades de emprego e educação. No entanto, é crucial reconhecer que essa mudança não precisa ser vista apenas como um êxodo rural, mas sim como uma transição repleta de oportunidades.
