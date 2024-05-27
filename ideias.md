@@ -14,7 +14,7 @@ https://agrinho-murillo.vercel.app/
 
 https://agrinho-one.vercel.app/
 
-https://guhhschool.github.io/transformando-o-mundo/ e e,
+https://guhhschool.github.io/transformando-o-mundo/
 
 https://jheni02.github.io/site-agrinho/
 
