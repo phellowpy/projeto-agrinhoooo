@@ -1,3 +1,24 @@
+### inspiraçao de sites
+
+https://github.com/DavidBurKing/meioambientedodavi
+https://mr-programacoes.github.io/Index.html
+https://josephthdvy.github.io/J-dex/
+https://acoes-que-transformam-o-mundo.vercel.app/
+https://projeto-envolve.vercel.app/
+https://agrinho-murillo.vercel.app/
+https://agrinho-one.vercel.app/
+https://guhhschool.github.io/transformando-o-mundo/
+https://jheni02.github.io/site-agrinho/
+https://jheni02.github.io/projeto.ombs/
+https://arthurf70x7.github.io/
+
+
+
+
+
+
+
+
 eu tenho um projeto para fazer um site sobre "do campo a cidade colhendo oportunidades", me de 100 sugestões do que fazer com sub topicos pequenos explicando a sugestão
 pegue os temas e verifique quais podem ser incrementados juntos em um site so, diga esses temas em topicos organizados
 
