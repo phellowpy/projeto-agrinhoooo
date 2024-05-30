@@ -34,6 +34,8 @@ atualizaçao das maquinas
 
 atualizaçao de empregos (empresgos que surgiram, empregos trocados por maquinas e pregos que sumiram)
 
+Benefícios da Tecnologia na Agricultura
+
 tecnologia que incorpora a opurtunidade no campo
 
  *quais oportunidades podem ter
