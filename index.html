@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- TODO estilo -->
+    <title>Do Campo à Cidade</title>
+    <link rel="icon" type="imagem/png" class="imagem__sem-fundo" href="imagens/icone.png"/>
+    <link rel="stylesheet" type="text/css" href="assets/css/all.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <!-- TODO js -->
+    <script src="assets/js/all.js" type="text/javascript" defer></script> 
+    <!-- TODO exportado -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="https://kit.fontawesome.com/b94af45785.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+</head>
+<body>
+
+    <!-- navbar -->
+
+    <div class="navbar">    
+        <a href="index.html">Home&nbsp;<ion-icon name="home-outline"></ion-icon></a>
+        <a onclick="NavBarVoltar()">Voltar&nbsp;<ion-icon name="arrow-back-outline"></ion-icon></a>
+        <a onclick="NavBarAvançar()">Avançar&nbsp;<ion-icon name="arrow-forward-outline"></ion-icon></ion-icon></a>
+        <a href="#contact" style="float:right">Contato&nbsp;&nbsp;<ion-icon name="person-outline"></ion-icon></a>
+    </div>
+
+<!-- começo -->
+
+    <ul class="blocos">
+        <li class="bloco__item">
+          <div class="bloco">
+            <div class="bloco__imagem bloco__imagem--angora"></div>
+            <div class="bloco__content">
+              <div class="bloco__title"><b>Raça Angora</b></div>
+              <p class="bloco__text">Os felinos dessa raça têm muita energia e disposição para brincar, por isso adoram crianças. Ademais, eles são extremamente adaptáveis ao ambiente em que estão inseridos.</p>
+              <a href="https://www.youtube.com/watch?v=nnY_-nCMMwU" button class="btn btn--block bloco__btn" onmouseover="playSound('somBlocosGatos')">Saiba mais sobre</a>
+            </div>
+          </div>
+        </li>
+        <li class="bloco__item">
+          <div class="bloco">
+            <div class="bloco__imagem bloco__imagem--laranja"></div>
+            <div class="bloco__content">
+              <div class="bloco__title"><b>Raça Maine coon laranja</b></div>
+              <p class="bloco__text">São gatos tidos como sociáveis, companheiros e gentis, que gostam de demonstrar afeto e são muito apegados aos seus humanos. Se relacionam bem com crianças, mas evitam contato com estranhos.</p>
+              <a href="https://www.youtube.com/watch?v=ujZCu2HsW2o" button class="btn btn--block bloco__btn" onmouseover="playSound('somBlocosGatos')">Saiba mais sobre</a>
+            </div>
+          </div>
+        </li>
+        <li class="bloco__item">
+          <div class="bloco">
+            <div class="bloco__imagem bloco__imagem--sphynx"></div>
+            <div class="bloco__content">
+              <div class="bloco__title">Raça Sphynx</div>
+              <p class="bloco__text">De temperamento tranquilo, gostam de crianças e de outros animais. Se você quer um gatinho que goste de ficar no colo tanto quanto gosta de correr pela casa atrás de um brinquedo, então o Sphynx é ideal para você! Assim como a maioria dos gatos, os Sphynx são muito ativos. Gostam de brincar, pular e correr.</p>
+              <a href="https://www.youtube.com/watch?v=24nUhvmXI5o" button class="btn btn--block bloco__btn" onmouseover="playSound('somBlocosGatos')">Saiba mais sobre</a>
+            </div>
+          </div>
+        </li>
+
+<!-- bloco do gato da isa com um tooltip -->
+
+        <li class="bloco__item">
+          <div class="bloco-especial">
+            <div class="bloco__imagem bloco__imagem--siames">
+              
+<!-- tooltip -->
+              <div class="tooltip"><img src="imagens/blocos-gatos/gatos-isa/caixao.png" alt="" width="75" height="50">
+                <span class="tooltiptext">Minha eterna Ariel. ~Isabella</span>
+              </div>
+
+            </div>
+            <div class="bloco__content">
+              <div class="bloco__title">Raça Korat</div>
+              <p class="bloco__text">São gatos que não lidam tão bem como agitação e barulho, preferindo um local mais tranquilo, e não são tão sociáveis com quem não conhecem.</p>
+              <a href="https://www.youtube.com/watch?v=A3ydn4mrUmk" button class="btn btn--block bloco__btn" onmouseover="playSound('somBlocosGatos')">Saiba mais sobre</a>
+            </div>
+          </div>
+
+
+
+
+
+
+          
+        </li>
+        <li class="bloco__item">
+          <div class="bloco">
+            <div class="bloco__imagem bloco__imagem--calico">
+            <div class="tooltip"><img src="imagens/icone.png" alt="" width="75" height="50">
+              <span class="tooltiptext">ChillyKitty</span>
+            </div>
+          </div>
+            <div class="bloco__content">
+              <div class="bloco__title">Raça Chita/Calico</div>
+              <p class="bloco__text">Os bichanos tricolores são considerados tímidos, curiosos e brincalhões. Esses gatinhos são ativos na maior parte do tempo, possuindo uma grande energia.</p>
+              <a href="https://www.youtube.com/watch?v=daN_5hgaP3A" button class="btn btn--block bloco__btn" onmouseover="playSound('somBlocosGatos')">Saiba mais sobre</a>
+            </div>
+          </div>
+        </li>
+        <li class="bloco__item">
+          <div class="bloco">
+            <div class="bloco__imagem bloco__imagem--bombaim"></div>
+            <div class="bloco__content">
+              <div class="bloco__title">Raça Bombain</div>
+              <p class="bloco__text">O Bombay não é nada distante e independente, são cativantes, brincalhões, amorosos, alegres e agradáveis a qualquer pessoa da família, principalmente se alguém estimulá-los com jogos e oferecer um colo.</p>
+              <a href="https://www.youtube.com/watch?v=PyJrC71VSSs" button class="btn btn--block bloco__btn" onmouseover="playSound('somBlocosGatos')">Saiba mais sobre</a>
+            </div>
+          </div>
+        </li>
+        
+      </ul>
+
+
+
+
+
+
+
+            </article>
+        </section>
+        <section id="comunidade">
+            <h1>Comunidade e Parcerias</h1>
+            <article>
+                <h2>Mercados Orgânicos</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.</p>
+                <img src="img/comunidade.jpg" alt="Comunidade e Parcerias">
+                <ul>
+                    <li><a href="#">Parcerias Locais</a></li>
+                    <li><a href="#">Hortas Comunitárias</a></li>
+                    <li><a href="#">Festivais Gastronômicos</a></li>
+                    <li><a href="#">Acesso à Terra</a></li>
+                </ul>
+            </article>
+        </section>
+        <section id="turismo">
+            <h1>Turismo e Experiências Rurais</h1>
+            <article>
+                <h2>Turismo Rural</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.</p>
+                <img src="img/turismo.jpg" alt="Turismo e Experiências Rurais">
+                <ul>
+                    <li><a href="#">Agroturismo</a></li>
+                    <li><a href="#">Projetos de Permacultura</a></li>
+                </ul>
+            </article>
+        </section>
+        <section id="empreendedorismo">
+            <h1>Empreendedorismo e Inovação</h1>
+            <article>
+                <h2>Empreendedorismo Rural</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.</p>
+                <img src="img/empreendedorismo.jpg" alt="Empreendedorismo e Inovação">
+                <ul>
+                    <li><a href="#">Oficinas e Cursos</a></li>
+                </ul>
+            </article>
+        </section>
+    </main>
+
+    <header>
+        <h1>Educação e Informação</h1>
+        <nav>
+            <ul>
+                <li><a href="#artigos-educativos">Artigos Educativos</a></li>
+                <li><a href="#entrevistas-agricultores">Entrevistas com Agricultores</a></li>
+                <li><a href="#guias-plantio">Guias de Plantio</a></li>
+                <li><a href="#agroecologia">Agroecologia</a></li>
+                <li><a href="#gestao-residuos">Gestão de Resíduos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="artigos-educativos">
+            <h2>Artigos Educativos</h2>
+            <article>
+                <h3>A Jornada dos Alimentos</h3>
+                <img src="imagens/jornada-alimentos.jpg" alt="Ilustração da jornada dos alimentos">
+                <p>Entenda o ciclo dos alimentos desde o plantio até a mesa do consumidor, destacando a importância da agricultura sustentável.</p>
+                <a href="#">Leia mais</a>
+            </article>
+        </section>
+
+        <section id="entrevistas-agricultores">
+            <h2>Entrevistas com Agricultores</h2>
+            <article>
+                <h3>Entrevista com João, um Agricultor Local</h3>
+                <img src="imagens/entrevista-joao.jpg" alt="João ao lado de sua plantação">
+                <p>João compartilha os desafios e conquistas de sua jornada no campo, e como ele vê o papel da agricultura na comunidade.</p>
+                <a href="#">Leia mais</a>
+            </article>
+        </section>
+
+        <section id="guias-plantio">
+            <h2>Guias de Plantio</h2>
+            <article>
+                <h3>Como Criar uma Horta Vertical em Casa</h3>
+                <img src="imagens/horta-vertical.jpg" alt="Horta vertical em casa">
+                <p>Descubra como iniciar uma horta em pequenos espaços com nosso passo a passo ilustrado.</p>
+                <a href="#">Leia mais</a>
+            </article>
+        </section>
+
+        <section id="agroecologia">
+            <h2>Agroecologia</h2>
+            <article>
+                <h3>Princípios da Agroecologia</h3>
+                <img src="imagens/agroecologia.jpg" alt="Práticas agroecológicas">
+                <p>Conheça os princípios da agroecologia e veja exemplos de práticas agroecológicas bem-sucedidas.</p>
+                <a href="#">Leia mais</a>
+            </article>
+        </section>
+
+        <section id="gestao-residuos">
+            <h2>Gestão de Resíduos</h2>
+            <article>
+                <h3>Redução de Resíduos na Agricultura</h3>
+                <img src="imagens/gestao-residuos.jpg" alt="Gestão de resíduos na agricultura">
+                <p>Explore estratégias para redução de resíduos na agricultura, incluindo guias de compostagem e reciclagem.</p>
+                <a href="#">Leia mais</a>
+            </article>
+        </section>
+    </main>
+
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+    const links = document.querySelectorAll('nav a');
+
+    links.forEach(link => {
+        link.addEventListener('click', function(event) {
+            event.preventDefault();
+            const targetId = event.target.getAttribute('href').substring(1);
+            const targetSection = document.getElementById(targetId);
+
+            window.scrollTo({
+                top: targetSection.offsetTop - document.querySelector('header').offsetHeight,
+                behavior: 'smooth'
+            });
+        });
+    });
+});
+    </script>
+
+
+    <!-- footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>company</h4>
+                    <ul>
+                        <li><a href="#">about us</a></li>
+                        <li><a href="#">our services</a></li>
+                        <li><a href="#">privacy policy</a></li>
+                        <li><a href="#">affiliate program</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>get help</h4>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">shipping</a></li>
+                        <li><a href="#">returns</a></li>
+                        <li><a href="#">order status</a></li>
+                        <li><a href="#">payment options</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>online shop</h4>
+                    <ul>
+                        <li><a href="#">watch</a></li>
+                        <li><a href="#">bag</a></li>
+                        <li><a href="#">shoes</a></li>
+                        <li><a href="#">dress</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>&#169 2024 Phellowpy CO.</h4> 
+
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-discord"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                    <br>
+                </div>
+            </div>
+        </div>
+   </footer>
+ 
+</body>
+</html>

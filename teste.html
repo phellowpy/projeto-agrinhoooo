@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html LANG="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compartible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <title>Agrinho</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="jin.ico" type="image/x-icon">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap');
+
+*{
+   
+   padding: 0;
+   margin: 0;
+   font-family: 'Arial';
+   box-sizing: border-box;
+ }
+
+ @font-face {
+   font-family: 'font';
+   src: url(TSUSHIMA.TTF);
+}
+
+ body{
+
+   width: 100%;
+   min-height: 100vh;
+   background-color: black;
+   word-wrap: break-word;
+   overflow-wrap: break-word;
+ }
+
+ section{
+
+   width: 100%;
+   height: 100vh;
+   position: relative;
+   overflow: hidden;
+ }
+ 
+ section div.video {
+
+   width: 100%;
+   height: 100%;
+   position:absolute;
+}
+
+section div.background-section {
+
+   width: 100%;
+   height: 100%;
+   position:absolute;
+   z-index: 0;
+}
+
+section div.background-section video {
+
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   object-position: center;
+}
+
+section div.box{
+   height: 100%;
+   width: 50%;
+   position: absolute;
+   z-index: 1;
+   background: linear-gradient(to right,rgba(0, 0, 0, 0.9 ), transparent ) ;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+}       
+
+section div.box div.conteudo{
+   width: 80%;
+}
+
+section div.box img{
+   width: 100%;
+   min-width: 300px;
+}
+
+section div.box p{
+   color: white;
+   font-size: 20px;
+   line-height: 32px;
+}
+
+@media  screen and (max-width: 1024px) {
+   section div.box{
+       width: 100%;
+       padding: 2%;
+       background: rgba(0, 0, 0, 0.4 ) ;
+
+   
+   }  
+
+   section div.box div.conteudo{
+       width: 100%;
+       text-align: center;
+   }
+   
+}
+
+.texto{
+
+   font-size: 125px;
+   text-transform: uppercase;
+   font-family: "Protest Revolution", sans-serif;
+   background: linear-gradient(to right, #7d0e0e, black, black, #640b0b);
+   background-size: 400% 100%;
+   animation: degrade 10s linear infinite alternate;
+   text-align: center;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   visibility: hidden;
+}
+
+@keyframes degrade {
+   0%{
+       background-position-x: 0%;
+   }
+
+   100%{
+       background-position: 400%;
+   }
+}
+h1,h2,h3,h4,h5,h6{
+   font-weight: 900;
+   color: #000;
+
+ }
+ 
+ .wrapper{
+   width: 100%;
+   margin: 0 auto;
+ }
+ 
+ main{
+   display: block;
+   background-color: white;
+ }
+ 
+ .container{
+   width: 100%;
+   max-width: 1000px;
+   margin: 0 auto ;
+   padding: 0 20px;
+ }
+ 
+ section.module p{
+   margin-bottom: 40px;
+ }
+ 
+ section.module:last-child{
+   margin-bottom: 0;
+ }
+ 
+ section.module h2{
+   margin-bottom: 40px;
+   font-size: 30px;
+ }
+ 
+ section.module.content{
+  padding: 40px 0;
+  background: white; 
+ }
+ 
+ section.module.parallax{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   height: 100vh !important;
+   width: 100%;
+   position: relative;
+   overflow: hidden;
+   background-position: 50% 50%;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+ }
+ 
+ section.module.parallax:after{
+   content: "";
+   height: 100%;
+   width: 100%;
+   position: absolute;
+   z-index: 8;
+   background: -moz-linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100% );
+   background: -webkit-linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100% );
+   background: linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100% );
+ }
+ 
+ 
+ section.module.parallax-1{
+   background-image: url("https://gzhls.at/i/31/45/1803145-l4.jpg");
+ }
+ 
+ section.module.parallax-2{
+   background-image: url("https://image.api.playstation.com/vulcan/img/rnd/202108/2019/bOmiMyavrPQiAamYi8LHPqmI.jpg");
+ }
+ 
+ section.module.parallax-3{
+   background-image: url("https://www.psu.com/wp/wp-content/uploads/2020/09/Ghost-of-Tsushima-PS4-PS5-Wallpapers-Backgrounds-8-min.jpg");
+ }
+ 
+ section.module.parallax h1{
+   color: #FFF;
+   text-align: center;
+   font-size: 78px;
+   z-index: 50;
+   text-transform: uppercase;
+ }
+ 
+ @media all and (max-width: 820px) {
+   section.module h2 {
+     font-size: 32px;
+   }
+   .module h2, p{
+     padding: 0 9px;
+   }
+ 
+   .container{
+     margin:0;
+     padding:0;
+   }
+ 
+   section.module.parallax h1 {
+     font-size: 36px;
+   }
+ }
+
+ div.lika {
+
+   display: inline-block;
+   margin: -11px;
+}
+
+footer {
+   text-align: center;
+   padding: 10px;
+   background-color: #7d0e0e;
+   color: #fff;
+}
+    </style>
+</head>
+<body>
+
+
+    <section>
+        <div class="background-section">
+            <video src="gogo.mp4" autoplay loop muted></video>
+        </div>
+
+
+        <div class="box">
+            <div class="conteudo">
+                <img src="sakai.png" alt="logotipo ghost">
+                <p>Ghost of Tsushima é um jogo eletrônico de ação-aventura desenvolvido pela Sucker Punch Productions e publicado pela Sony Interactive Entertainment. A história acompanha Jin Sakai, um samurai que precisa proteger a Ilha de Tsushima durante a primeira invasão mongol do Japão.</p>
+
+            </div>
+        </div>
+    </section>
+    <div class="wrapper">
+        <main>
+          <section class="module parallax parallax-1">
+            <div class="texto"> história </div>
+          </section>
+    
+          <section class="module content">
+            <div class="container">
+
+              <p>
+                Ghost of Tsushima é um jogo eletrônico de ação-aventura desenvolvido pela Sucker Punch Productions e publicado pela Sony Interactive Entertainment. A história acompanha Jin Sakai, um samurai que precisa proteger a Ilha de Tsushima durante a primeira invasão mongol do Japão. Ele se vê dividido entre escolher seguir o código do guerreiro para lutar honradamente ou usar métodos práticos e desonrosos para subjugar os mongóis. A jogabilidade apresenta um grande mundo aberto que pode ser explorado a pé ou a cavalo. Ao enfrentar inimigos o jogador pode escolher enfrentá-los diretamente com a katana de Jin ou usar táticas furtivas e assassinar oponentes tornando-se assim o lendário guerreiro conhecido como "o Fantasma". Um modo multijogador intitulado Ghost of Tsushima: Legends foi lançado posteriormente e disponibilizado em separado do jogo principal.
+                <center><img src="img.jpg" width="400"></center>
+              </p>
+
+
+            </div>
+          </section>
+    
+          <section class="module parallax parallax-2">
+            <div class="texto"> personagens </div>
+          </section>
+    
+          <section class="module content">
+            <div class="container">
+   
+             <a href="https://ghostoftsushima.fandom.com/wiki/Jin_Sakai"  target="_blank" ><img src="samurai.jfif" width="430px" ></a>
+            </div>
+          </section>
+    
+          <section class="module parallax parallax-3">
+            <div class="texto"> Onde comprar? </div>
+          </section>
+    
+          <section class="module content">
+            <div class="container">
+                <center><div class="lika">
+                    <a href="https://store.playstation.com/pt-br/product/UP9000-CUSA11456_00-GHOSTDIRECTORPS4" target= _blank><img src="ps.png" width="500px"/></a>
+
+                </div>
+                <div class="lika">
+                    <a href="https://www.amazon.com.br/Ghost-Tsushima-Vers%C3%A3o-Diretor-Playstation/dp/B099H1RFQR" target= _blank><img src="p.png" width="500px"/></a>
+                </div></div></center>
+   
+          </section>
+    
+        </main>
+      </div>
+
+      <footer>
+        <p>&copy; 2024  GUILHERME. Todos os direitos reservados.</p>
+    </footer>
+
+
+      
+<script>
+window.sr = ScrollReveal({reset: true})
+
+sr.reveal('.texto', {duration: 2000 });
+
+sr.reveal('section div.box', {duration: 3000 });
+
+sr.reveal('section div.background-section video', {duration: 500 });
+</script>
+</body>
+</html>

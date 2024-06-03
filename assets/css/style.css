@@ -1,0 +1,226 @@
+/*cartoes dos gatos*/
+
+*,
+*::before,
+*::after { 
+  box-sizing: border-box;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.btn {
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 10px;
+  color: gray-dark;
+  padding: 0.5rem;
+  font-family: 'Protest Riot', sans-serif;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: 2px;
+  color: #e424e4;
+}
+
+.btn--block {
+  display: block;
+  width: 100%;
+}
+ 
+.btn:hover {
+    color: rgb(243, 213, 238);
+    background-color: #000000;
+    border: 2px solid white;
+}
+
+.blocos {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.bloco__item {
+  display: flex;
+  padding: 1rem;
+  @media(min-width: 40rem) {
+    width: 50%;
+  }
+  @media(min-width: 56rem) {
+    width: 33.3333%;
+  }
+}
+
+.bloco {
+  background-color: rgb(243, 213, 238);
+  border-radius: 10px;
+  box-shadow: 0 20px 40px -14px rgba(0,0,0,0.25);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  &:hover {
+    .bloco__imagem {
+      filter: contrast(100%);
+    }
+  }
+}
+
+.bloco:hover {
+  background-image: linear-gradient(to right, rgb(243, 213, 238), rgb(243, 213, 238), rgb(255, 255, 134) , rgb(255, 255, 134), rgb(231, 98, 180), rgb(231, 98, 180), rgb(243, 213, 238));
+  animation: rainbowanimation 6s infinite;
+  background-size: 400% 100%;
+}
+
+@keyframes rainbowanimation {
+  0%,100% {
+      background-position: 0 0;
+  }
+
+  50% {
+      background-position: 100% 0;
+  }
+}
+
+.bloco-especial {
+  background-color: rgb(243, 213, 238);
+  border-radius: 10px;
+  box-shadow: 0 20px 40px -14px rgba(0,0,0,0.25);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  &:hover {
+    .bloco__imagem {
+      filter: contrast(100%);
+    }
+  }
+}
+
+.bloco-especial:hover {
+  background: linear-gradient(to right, #ff3064, #ff3030 , #ffac30, rgb(255, 252, 51), #30ff3a, #30e7ff, #3330ff, #ac30ff, #ff30e3, #ff3064);
+  animation: rainbow_animation 6s infinite;
+  background-size: 400% 100%;
+}
+
+@keyframes rainbow_animation {
+  0%,100% {
+      background-position: 0 0;
+  }
+
+  50% {
+      background-position: 100% 0;
+  }
+}
+
+
+.bloco__content {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.bloco__imagem {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+  filter: contrast(70%);
+  filter: saturate(180%);
+  overflow: hidden;
+  position: relative;
+  transition: filter 0.5s cubic-bezier(.43,.41,.22,.91);;
+  &::before {
+    content: "";
+	  display: block;
+    padding-top: 56.25%; // 16:9 aspect ratio
+  }
+  @media(min-width: 40rem) {
+    &::before {
+      padding-top: 66.6%; // 3:2 aspect ratio
+    }
+  }
+}
+
+.bloco__imagem--angora {
+  background-image: url(imagens/blocos-gatos/angora.png);
+}
+
+.bloco__imagem--laranja {
+  background-image: url(imagens/blocos-gatos/laranja.png);
+}
+
+.bloco__imagem--sphynx {
+  background-image: url(imagens/blocos-gatos/sphynx.png);
+}
+
+.bloco__imagem--siames {
+  background-image: url(imagens/blocos-gatos/gatos-isa/1.png);
+}
+
+.bloco__imagem--calico {
+  background-image: url(imagens/blocos-gatos/calico.png);
+}
+
+.bloco__imagem--bombaim {
+  background-image: url(imagens/blocos-gatos/bombaim.jpg);
+}
+
+
+
+.raridade {
+  margin: 5px;
+  position: absolute;
+  top: 0;
+}
+
+
+.bloco__title {
+  color: #000000;
+  font-size: 1.25rem;
+  font-weight: 300;
+  letter-spacing: 2px;
+
+}
+
+.bloco__text {
+  flex: 1 1 auto;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  margin-bottom: 1.25rem;
+  color: #000000;
+}
+
+
+  /*ferramenta de ajuda - gatinho da isa*/
+
+.tooltip {
+  margin: 5px;
+  position: absolute;
+  top: 0;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 150px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  top: 20px;
+  left: 105%;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
