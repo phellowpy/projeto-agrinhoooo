@@ -26,6 +26,18 @@ flexbox froggy
 
 <hr>
 
+redução de custos: com alguns mecanismos, é possível reduzir o consumo de fertilizantes, água e defensivos;
+-aumento da produtividade: com as ferramentas tecnológicas, é possível corrigir mais rapidamente os problemas e agilizar os processos;
+redução dos impactos ambientais: com uma agricultura mais sustentável, você consegue escoar menos produtos químicos em rios e contribuir com a saúde da natureza e de todas as pessoas;
+aumento da segurança: a tecnologia proporciona mais segurança na realização dos processos e reduz as falhas;
+mais eficiência: com a tecnologia na agricultura, os colaboradores podem atuar de maneira mais eficiente e ágil, o que melhora os resultados em todos os sentidos;
+maior assertividade nos processos: é possível identificar e corrigir falhas com rapidez, como a falta de nutrientes no solo ou doenças na plantação;
+monitorar as condições climáticas, o solo, as pragas e as doenças que podem afetar as plantações: com o uso de sensores, drones, satélites e aplicativos, os agricultores podem coletar e analisar dados em tempo real;
+análise de clima: a previsão de mudanças climáticas se torna possível por meio de uma mapa detalhado com as informações, o que evita perdas no campo;
+melhoria da gestão da propriedade rural: com o uso de softwares específicos, os produtores podem controlar custos, receitas, estoques, contratos, certificações e impostos de forma integrada e automatizada.
+
+<hr>
+
 oportunidades de emprego
 
 falar sobre oq e
